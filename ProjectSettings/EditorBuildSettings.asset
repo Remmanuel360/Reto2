@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/NV3.unity
     guid: d82f007145cafde48a0c0668445b92a4
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 35b2f6cd97ba4824998d0ec613b61b67
   m_configObjects: {}
