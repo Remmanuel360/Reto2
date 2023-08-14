@@ -1,10 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 
 public class vida : MonoBehaviour
 {
+    [SerializeField] int Vidas;
+    [SerializeField] Slider sliderVidas;
+
     public float vidapersonaje;
 
     private void Start()
@@ -12,11 +16,12 @@ public class vida : MonoBehaviour
         
     }
 
-    private void Update()
+    private void OnCollisionEnter2D (Collision2D otro )
     {
-        if ( vidapersonaje <= 0)
+        if (otro.gameObject.CompareTag("enemigo"))
         {
-            Destroy(gameObject);
+            Vidas--;
+            sliderVidas.value = Vidas;
         }
     }
 }
