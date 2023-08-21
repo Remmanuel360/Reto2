@@ -183,7 +183,7 @@ GameObject:
   - component: {fileID: 127185361}
   m_Layer: 0
   m_Name: mago
-  m_TagString: Untagged
+  m_TagString: jugador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -330,7 +330,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Vidas: 5
   sliderVidas: {fileID: 439483656}
-  vidapersonaje: 0
+  vidapersonaje: 5
 --- !u!1 &276878338
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,7 +1253,7 @@ GameObject:
   - component: {fileID: 606365779}
   m_Layer: 0
   m_Name: jefe
-  m_TagString: Untagged
+  m_TagString: enemigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6703,6 +6703,9 @@ MonoBehaviour:
   wayPoints:
   - {fileID: 1811445422}
   - {fileID: 815780482}
+  vidaEnemigos: 3
+  Vidaactual: 0
+  muerteEnemigo: 0
 --- !u!212 &1787623693
 SpriteRenderer:
   m_ObjectHideFlags: 0
