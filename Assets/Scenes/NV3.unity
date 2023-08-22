@@ -233,7 +233,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0074338913, y: -0.04460442}
@@ -366,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 1.199997, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &276878340
@@ -708,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -0.66999817, y: 0}
+  m_AnchoredPosition: {x: -0.670002, y: 0}
   m_SizeDelta: {x: -8.24, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &388455823
@@ -796,8 +796,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 271.1, y: 139.1}
-  m_SizeDelta: {x: 160, y: 20}
+  m_AnchoredPosition: {x: 258.5, y: 122.4}
+  m_SizeDelta: {x: 89.85, y: 13.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &439483656
 MonoBehaviour:
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 5
   m_WholeNumbers: 0
-  m_Value: 1
+  m_Value: 5
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1251,6 +1251,7 @@ GameObject:
   - component: {fileID: 606365781}
   - component: {fileID: 606365780}
   - component: {fileID: 606365779}
+  - component: {fileID: 606365783}
   m_Layer: 0
   m_Name: jefe
   m_TagString: enemigo
@@ -1273,7 +1274,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -1289,10 +1290,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.008282244, y: -0.016564533}
+  m_Offset: {x: 0.003511034, y: -0.07381505}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1303,7 +1304,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7184032, y: 0.9668709}
+  m_Size: {x: 0.49894303, y: 0.8523699}
   m_EdgeRadius: 0
 --- !u!212 &606365781
 SpriteRenderer:
@@ -1372,6 +1373,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &606365783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606365778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b2c2af80f693749833967e71a4c03a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToload: Creditos
 --- !u!1 &628584089
 GameObject:
   m_ObjectHideFlags: 0
@@ -1634,7 +1648,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &824835748
 GameObject:
@@ -5077,7 +5091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.9000015, y: -0.5}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1056963455
@@ -5575,8 +5589,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 395.73, y: 144.21}
-  m_SizeDelta: {x: 88.147, y: 97.589}
+  m_AnchoredPosition: {x: 324, y: 124}
+  m_SizeDelta: {x: 41.72, y: 41.794}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309176892
 MonoBehaviour:
@@ -6706,6 +6720,8 @@ MonoBehaviour:
   vidaEnemigos: 3
   Vidaactual: 0
   muerteEnemigo: 0
+  potionPrefab: {fileID: 0}
+  spawnPoint: {fileID: 0}
 --- !u!212 &1787623693
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6771,7 +6787,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!50 &1787623695
 Rigidbody2D:
@@ -6804,7 +6820,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.005038798, y: -0.035271525}
@@ -6874,7 +6890,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.85577
+  orthographic size: 6.1082053
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -6887,7 +6903,7 @@ Camera:
   m_AllowMSAA: 1
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
+  m_OcclusionCulling: 0
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
 --- !u!4 &1798684762
@@ -7075,7 +7091,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1848429846
 GameObject:
@@ -7512,7 +7528,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &1878984848
 RectTransform:
