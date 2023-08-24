@@ -10106,6 +10106,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2135158249}
   - component: {fileID: 2135158248}
+  - component: {fileID: 2135158251}
+  - component: {fileID: 2135158250}
   m_Layer: 0
   m_Name: tilemap_packed_115
   m_TagString: Untagged
@@ -10173,10 +10175,41 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2135158247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01999998, y: -0.109999895, z: 0}
+  m_LocalPosition: {x: 0, y: -0.03, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1704579417}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135158250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135158247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d7ba1a91bf67f2429366c05eb32f4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Vidas: 0
+  sliderVidas: {fileID: 1770164496}
+  vidapersonaje: 0
+--- !u!58 &2135158251
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135158247}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.19704819}
+  serializedVersion: 2
+  m_Radius: 0.26146793

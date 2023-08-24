@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class movientoEnemigo : MonoBehaviour
+public class MovientoEnemigo : MonoBehaviour
 {
 
     public float Speed;
@@ -13,7 +13,7 @@ public class movientoEnemigo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-      // ContadorT = TiempoParaRegresar;
+      ContadorT = TiempoParaRegresar;
     }
 
     // Update is called once per frame
